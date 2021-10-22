@@ -1,0 +1,564 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+
+/*　パディングをサイズ内側にする処理　*/
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+
+/*この下から記述*/
+
+/*ーーーーーーーーーーー*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+/*body_title
+---------------------*/
+
+body {
+  font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  line-height: 1.75;
+  font-size: 16px;
+  background-image: url(../img/Group\ 1.png);
+}
+
+/*header
+---------------------*/
+
+.header {
+  margin-top: 50px;
+  height: 230px;
+  position: fixed;
+}
+
+.header_content {
+  display: flex;
+}
+
+.header img {
+  width: 130px;
+  margin-left: 28px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.header_img2 {
+  display: none;
+}
+
+.menu-group {
+  width: 180px;
+  background-color: rgba(173, 171, 171, 0.8);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-right: 5px solid #e6e5e6;
+  border-bottom: 5px solid #e6e5e6;
+  border-top: 5px solid #e6e5e6;
+  transition: all 1s;
+}
+
+.menu-group:hover {
+  background-color: rgb(28, 168, 223);
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 70px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/*main_title
+---------------------*/
+
+.main_title {
+  /* background-image: url(../img/mainbg.png); */
+  height: 600px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_title h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.main_title p {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main_title h1 span {
+  background: -webkit-linear-gradient(0deg, #FF0080, #FF8C00, #eed709);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+}
+
+/*about
+---------------------*/
+
+.about {
+  height: 300px;
+  margin-right: 100px;
+  margin-left: 200px;
+  line-height: 39px;
+  background-color: rgb(248, 222, 106);
+  border-radius: 1000px;
+}
+
+.about_tex {
+  align-items: center;
+}
+
+.about_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.about_img img {
+  background-color: khaki;
+  height: auto;
+  object-fit: cover;
+  width: 25%;
+}
+
+/*course
+---------------------*/
+
+.course {
+  display: flex;
+  margin-top: 100px;
+  height: 200px;
+  margin-right: 100px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  line-height: 39px;
+  background-color: rgb(248, 222, 106);
+  border-radius: 1000px;
+}
+
+/*course1
+---------------------*/
+
+.course_img1 {
+  display: flex;
+  justify-content: center;
+}
+
+.course_img1_img, .course_img1_tex {
+  width: 50%;
+}
+
+.course_img1_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course_img1_tex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 222, 106);
+  padding: 100px 200px 100px 100px;
+}
+
+/*course2
+---------------------*/
+
+.course_img2 {
+  display: flex;
+  justify-content: center;
+}
+
+.course_img2_img, .course_img2_tex {
+  width: 50%;
+}
+
+.course_img2_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course_img2_tex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 222, 106);
+  padding: 100px 100px 100px 200px;
+  text-align: left;
+}
+
+/*course3
+---------------------*/
+
+.course_img3 {
+  display: flex;
+  justify-content: center;
+}
+
+.course_img3_img, .course_img3_tex {
+  width: 50%
+}
+
+.course_img3_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course_img3_tex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 222, 106);
+  padding: 100px 200px 100px 100px;
+}
+
+/*news
+---------------------*/
+
+.news_heading {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-top: 20px;
+  margin-right: 100px;
+  margin-left: 200px;
+  line-height: 39px;
+  color: #fff;
+}
+
+.news_container {
+  background-color: #ff7300;
+  height: 500px;
+}
+
+.news_imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 200px;
+}
+
+.news_img {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin-right: 50px;
+}
+
+.news_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news_tex, .news_daily {
+  color: #fff;
+}
+
+.news_daily {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/*access
+---------------------*/
+
+.access_tex {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 100%;
+  margin-right: 100px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  line-height: 39px;
+  background-color: rgb(248, 222, 106);
+  border-radius: 1000px;
+}
+
+/*contact
+---------------------*/
+
+/* .contact-form{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border:10px solid #0f79b3;
+}
+
+input{
+  height: 30px;
+}
+
+.contents-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+} */
+
+.Form {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: auto;
+  max-width: 720px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+
+.Form_tex {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 100px;
+  height: 200px;
+  margin-bottom: 30px;
+  line-height: 39px;
+  background-color: rgb(248, 222, 106);
+  border-radius: 1000px;
+}
+
+.Form_tex span {
+  text-decoration: underline wavy red
+}
+
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 14px;
+}
+
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.check_boxs {
+  width: 1000px;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-left: 40px;
+  background: #eaedf2;
+  padding: 30px 1em;
+  line-height: 39px;
+}
+
+/*footer
+---------------------*/
+
+footer {
+  background-color: #eaedf2;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
+.footer-logo img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+/* 
+/* Loading背景画面設定　*/
+
+#splash {
+  /*fixedで全面に固定*/
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(1000deg, #eeff00, #FF8C00, #2b09ee);
+  text-align: center;
+  color: #fff;
+}
+
+#splash h1 {
+  text-align: center;
+  margin-top: 150px;
+  /* margin-left: 150px; */
+  font-family: serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  transform: skew(15deg, -14deg);
+  opacity: 1;
+  justify-content: center;
+}
+
+/* Loadingバー中央配置　*/
+
+#splash_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
+
+#splash_text svg {
+  height: 2px;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+#container {
+  width: 100%;
+  height: 100vh;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  color: rgb(51, 51, 51);
+}
+
+a:hover {
+  text-decoration: none;
+}

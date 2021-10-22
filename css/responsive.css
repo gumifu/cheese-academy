@@ -1,0 +1,423 @@
+/*body_title
+---------------------*/
+
+@media (max-width:768px) {
+    body {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width:768px) {
+    #splash h1 {
+        font-size: 40px;
+    }
+}
+    /*header
+---------------------*/
+    @media (max-width:768px) {
+        .header {
+            bottom: 0;
+            display: flex;
+            width: 100%;
+            height: 100px;
+        }
+        .menu-group {
+            border-right: initial;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            flex: 1;
+        }
+        .header img {
+            width: 200px;
+            margin: 0%;
+            margin-top: 10px;
+        }
+        .header ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .menu-item {
+            padding: 0;
+        }
+        .header_img1 {
+            display: none;
+        }
+        .header_img2 {
+            display: initial;
+            margin: auto;
+        }
+    }
+    /*main_title
+---------------------*/
+    @media(max-width:768px) {
+        .main_title {
+            height: 300px;
+        }
+        .main_title h1 {
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .main_title h1 span {
+            font-size: 60px;
+        }
+    }
+    /*about
+---------------------*/
+    @media(max-width:768px) {
+        .about {
+            font-size: 12px;
+            width: 80%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+        }
+        .about_tex {
+            width: 400px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .about_img {
+            flex-wrap: wrap;
+            display: flex;
+            margin-top: 50px;
+        }
+        .about_img img {
+            width: 50%;
+        }
+        .about_tex span {
+            display: none;
+        }
+    }
+    /*course
+---------------------*/
+    @media(max-width:768px) {
+        .course {
+            font-size: 12px;
+            width: 80%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 100px auto 50px auto;
+            line-height: 30px;
+            text-align: center;
+        }
+        /*course1
+---------------------*/
+        .course_img1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .course_img1_img, .course_img1_tex {
+            width: 100%;
+            height: 300px;
+            font-size: 12px;
+        }
+        .course_img1_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .course_img1_tex div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .course_img1_tex {
+            padding: 0;
+            height: auto;
+            padding: 50px 100px;
+            line-height: 25px;
+        }
+        .course_img1_tex h3 {
+            margin-bottom: 10px;
+        }
+        /*course2
+---------------------*/
+        .course_img2 {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        .course_img2_img, .course_img2_tex {
+            width: 100%;
+            height: 300px;
+            font-size: 12px;
+        }
+        .course_img2_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .course_img2_tex div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .course_img2_tex {
+            padding: 0;
+            height: auto;
+            padding: 50px 100px;
+            line-height: 25px;
+        }
+        .course_img2_tex h3 {
+            margin-bottom: 10px;
+        }
+        /*course2
+---------------------*/
+        .course_img3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .course_img3_img, .course_img3_tex {
+            width: 100%;
+            height: 300px;
+            font-size: 12px;
+        }
+        .course_img3_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .course_img3_tex div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .course_img3_tex {
+            padding: 0;
+            height: auto;
+            padding: 50px 100px;
+            line-height: 25px;
+        }
+        .course_img3_tex h3 {
+            margin-bottom: 10px;
+        }
+    }
+    /*news
+---------------------*/
+    @media(max-width:768px) {
+        .news_container {
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+            height: auto;
+        }
+        .news_imgs {
+            padding: auto;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0px 60px 0;
+        }
+        .news_img {
+            width: 300px;
+            padding: 0 5px;
+            margin: auto;
+        }
+        .news_heading {
+            padding: auto;
+            margin: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    /*access
+---------------------*/
+    @media(max-width:768px) {
+        .access {
+            padding: auto;
+            margin: auto;
+            font-size: 12px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .access_tex {
+            height: auto;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0px;
+            margin: 0%;
+            margin: 100px 0 50px 0;
+        }
+    }
+    /*contact tex
+---------------------*/
+    @media(max-width:768px) {
+        .Form_tex {
+            padding: 0%;
+            margin: 0%;
+            font-size: 12px;
+            width: 80%;
+            margin: auto;
+            margin-top: 100px;
+            height: auto;
+            margin-bottom: 30px;
+        }
+        .Form_tex div {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .Form_tex p {
+            text-align: center;
+        }
+        .Form_tex span {
+            text-decoration: underline wavy red
+        }
+        .Form-Btn {
+            margin-top: 10px;
+            margin-bottom: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100px;
+        }
+    }
+    /*contact input
+---------------------*/
+    @media(max-width:768px) {
+        .Form {
+            width: 80%;
+            padding: 0;
+            margin: 0;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        .Form-Item {
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        .Form-Item-Input {
+            margin-top: 18px;
+            height: 40px;
+            flex: inherit;
+            font-size: 15px;
+            margin-left: 0;
+        }
+        .Form-Item-Label-Required {
+            font-size: 12px;
+            padding: 0%;
+        }
+        .Form span {
+            font-size: 1px;
+        }
+        .check_boxs {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        .Form-Item-Label {
+            font-size: 12px;
+        }
+        .check_boxs {
+            margin-left: 0;
+        }
+        .Form-Item-Textarea {
+            flex: initial;
+            max-width: initial;
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .Form-Item {
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .Form-Item-Label {
+            max-width: inherit;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .Form-Item-Label.isMsg {
+            margin-top: 0;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .Form-Item-Label-Required {
+            border-radius: 4px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            width: 32px;
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .Form-Item-Input {
+            margin-left: 0;
+            margin-top: 18px;
+            height: 40px;
+            flex: inherit;
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .Form-Item-Textarea {
+            margin-top: 18px;
+            margin-left: 0;
+            height: 200px;
+            flex: inherit;
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .Form-Item-Textarea {
+            margin-top: 18px;
+            margin-left: 0;
+            height: 200px;
+            flex: inherit;
+            font-size: 15px;
+        }
+    }
+    /*footer
+---------------------*/
+    @media(max-width:768px) {
+        footer {
+            font-size: 10px;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+    }

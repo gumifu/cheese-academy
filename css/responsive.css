@@ -69,6 +69,15 @@
             font-size: 60px;
         }
     }
+
+    @media screen and (max-width: 480px) {
+        .main_title_item h1{
+            font-size: 18px;
+        }
+        .main_title_item p{
+            font-size: 12px;
+        }
+    }
     /*about
 ---------------------*/
     @media(max-width:768px) {
@@ -211,6 +220,19 @@
             margin-bottom: 10px;
         }
     }
+
+    @media screen and (max-width: 480px) {
+        .course_img1_tex{
+            padding: 50px;
+        }
+        .course_img2_tex{
+            padding: 50px;
+        }
+        .course_img3_tex{
+            padding: 50px;
+        }
+    }
+
     /*news
 ---------------------*/
     @media(max-width:768px) {
@@ -241,6 +263,18 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .news_imgs{
+            display: block;
+        }
+        .news_img{
+            margin-bottom: 50px;
+        }
+        .news_img:last-of-type{
+            margin-bottom: 0px;
         }
     }
     /*access

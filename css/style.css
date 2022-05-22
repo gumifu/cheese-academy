@@ -499,7 +499,7 @@ footer {
   margin: 20px 0;
 }
 
-/* 
+/*
 /* Loading背景画面設定　*/
 
 #splash {
@@ -537,11 +537,6 @@ footer {
   color: #fff;
 }
 
-/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
-
-#splash_text svg {
-  height: 2px;
-}
 
 /*========= レイアウトのためのCSS ===============*/
 
